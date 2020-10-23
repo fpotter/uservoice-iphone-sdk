@@ -33,7 +33,6 @@
 		AC312021108CE4B100000D5F /* UserVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31201F108CE4B100000D5F /* UserVoice.m */; };
 		AC312083108CFD9F00000D5F /* UVConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AC312081108CFD9F00000D5F /* UVConfig.h */; };
 		AC312084108CFD9F00000D5F /* UVConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AC312082108CFD9F00000D5F /* UVConfig.m */; };
-		AC312142108D366100000D5F /* UserVoice.h in Headers */ = {isa = PBXBuildFile; fileRef = AC312141108D366100000D5F /* UserVoice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC3121F9108FC46500000D5F /* UVBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3121F6108FC46500000D5F /* UVBaseModel.h */; };
 		AC3121FA108FC46500000D5F /* UVBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3121F7108FC46500000D5F /* UVBaseModel.m */; };
 		AC31220F108FC57700000D5F /* UVClientConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AC31220C108FC57700000D5F /* UVClientConfig.h */; };
@@ -182,6 +181,8 @@
 		D29734EE11E50B8F001B8D6E /* UIView+UVExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = D29734D611E50B8F001B8D6E /* UIView+UVExtras.m */; };
 		D297353211E50C83001B8D6E /* UVUIColorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D297353011E50C83001B8D6E /* UVUIColorAdditions.h */; };
 		D297353311E50C83001B8D6E /* UVUIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D297353111E50C83001B8D6E /* UVUIColorAdditions.m */; };
+		D2BEEBB91367436D00EBC307 /* UVTicket.h in Headers */ = {isa = PBXBuildFile; fileRef = D2BEEBB71367436D00EBC307 /* UVTicket.h */; };
+		D2BEEBBA1367436D00EBC307 /* UVTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BEEBB81367436D00EBC307 /* UVTicket.m */; };
 		D2C4B58F11C182CD00AD1C1A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C4B58E11C182CD00AD1C1A /* QuartzCore.framework */; };
 		D2D7B23A119D04E1003EDD3A /* UVProfileEditViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D7B238119D04E1003EDD3A /* UVProfileEditViewController.h */; };
 		D2D7B23B119D04E1003EDD3A /* UVProfileEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7B239119D04E1003EDD3A /* UVProfileEditViewController.m */; };
@@ -400,6 +401,8 @@
 		D297353011E50C83001B8D6E /* UVUIColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVUIColorAdditions.h; sourceTree = "<group>"; };
 		D297353111E50C83001B8D6E /* UVUIColorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVUIColorAdditions.m; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libUserVoice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUserVoice.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BEEBB71367436D00EBC307 /* UVTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVTicket.h; sourceTree = "<group>"; };
+		D2BEEBB81367436D00EBC307 /* UVTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVTicket.m; sourceTree = "<group>"; };
 		D2C4B58E11C182CD00AD1C1A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D2D7B238119D04E1003EDD3A /* UVProfileEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVProfileEditViewController.h; sourceTree = "<group>"; };
 		D2D7B239119D04E1003EDD3A /* UVProfileEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVProfileEditViewController.m; sourceTree = "<group>"; };
@@ -531,6 +534,8 @@
 				D209DF0911B33EC1001E1BC9 /* UVAnswer.m */,
 				D238B62312135C160008A469 /* UVStreamEvent.h */,
 				D238B62412135C160008A469 /* UVStreamEvent.m */,
+				D2BEEBB71367436D00EBC307 /* UVTicket.h */,
+				D2BEEBB81367436D00EBC307 /* UVTicket.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -789,7 +794,6 @@
 			files = (
 				AA747D9F0F9514B9006C5449 /* UserVoice_Prefix.pch in Headers */,
 				AC312083108CFD9F00000D5F /* UVConfig.h in Headers */,
-				AC312142108D366100000D5F /* UserVoice.h in Headers */,
 				AC3121F9108FC46500000D5F /* UVBaseModel.h in Headers */,
 				AC31220F108FC57700000D5F /* UVClientConfig.h in Headers */,
 				AC3123A01090EB3700000D5F /* UVSuggestionListViewController.h in Headers */,
@@ -878,6 +882,7 @@
 				D297353211E50C83001B8D6E /* UVUIColorAdditions.h in Headers */,
 				D238B62512135C160008A469 /* UVStreamEvent.h in Headers */,
 				D261E056121456430024F2EA /* UVStreamPoller.h in Headers */,
+				D2BEEBB91367436D00EBC307 /* UVTicket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1018,6 +1023,7 @@
 				D297353311E50C83001B8D6E /* UVUIColorAdditions.m in Sources */,
 				D238B62612135C160008A469 /* UVStreamEvent.m in Sources */,
 				D261E057121456430024F2EA /* UVStreamPoller.m in Sources */,
+				D2BEEBBA1367436D00EBC307 /* UVTicket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1049,7 +1055,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Vendor/HTTPRiot/Vendor/gh-unit-iphone\"",
@@ -1057,8 +1063,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/UserVoice;
 				PRODUCT_NAME = UserVoice;
-				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/UserVoice;
-				SDKROOT = iphoneos4.2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Vendor/JSON/** Vendor/HTTPRiot/** Vendor/YOAuth/**";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = USERVOICE;
@@ -1086,7 +1092,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Vendor/HTTPRiot/Vendor/gh-unit-iphone\"",
@@ -1094,8 +1100,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/UserVoice;
 				PRODUCT_NAME = UserVoice;
-				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/UserVoice;
-				SDKROOT = iphoneos4.2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Vendor/JSON/** Vendor/HTTPRiot/** Vendor/YOAuth/**";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = USERVOICE;
@@ -1109,12 +1115,15 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -1124,12 +1133,15 @@
 				ADDITIONAL_SDKS = "";
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
